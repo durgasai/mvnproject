@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<web-app  version="2.4" 	xmlns="http://java.sun.com/xml/ns/j2ee" 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	
+	 
+	<welcome-file-list>
+		<welcome-file>a.jsp</welcome-file>
+		 
+	</welcome-file-list>
+	
+ 
+
+	<display-name>jCharts - Simple Servlet Examples Web Application</display-name>
+
+	<servlet>
+		<servlet-name>PieChart2DServlet</servlet-name>
+		<servlet-class>org.jCharts.demo.simpleServlet.PieChart2DServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BarChartServlet</servlet-name>
+		<servlet-class>org.jCharts.demo.simpleServlet.BarChartServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ComboChartServlet</servlet-name>
+		<servlet-class>org.jCharts.demo.simpleServlet.ComboChartServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ScatterPlotChartServlet</servlet-name>
+		<servlet-class>org.jCharts.demo.simpleServlet.ScatterPlotChartServlet</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>HorizontalBarImageMapServlet</servlet-name>
+		<servlet-class>org.jCharts.demo.simpleServlet.HorizontalBarImageMapServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ChartServlet</servlet-name>
+		<servlet-class>org.jCharts.demo.simpleServlet.ChartServlet</servlet-class>
+	</servlet>
+
+
+
+	<servlet-mapping>
+		<servlet-name>PieChart2DServlet</servlet-name>
+		<url-pattern>/PieChart2DServlet/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BarChartServlet</servlet-name>
+		<url-pattern>/BarChartServlet/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ComboChartServlet</servlet-name>
+		<url-pattern>/ComboChartServlet/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ScatterPlotChartServlet</servlet-name>
+		<url-pattern>/ScatterPlotChartServlet/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>HorizontalBarImageMapServlet</servlet-name>
+		<url-pattern>/HorizontalBarImageMapServlet/*</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChartServlet</servlet-name>
+		<url-pattern>/ChartServlet/*</url-pattern>
+	</servlet-mapping>
+
+</web-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
