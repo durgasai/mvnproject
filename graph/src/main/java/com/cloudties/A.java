@@ -1,8 +1,8 @@
 package com.cloudties;
 public class A
 {
-  public void(a()
+  public void a()
  {
-  System.out.println("did now saju kk");
+  System.out.println("did now saju kk moonville");
  }
 }
